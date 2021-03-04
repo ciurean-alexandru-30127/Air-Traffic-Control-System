@@ -1,6 +1,6 @@
 # Air Traffic Control System
 
-In this lab you will implement a simplified air traffic control (ATC) sistem which allow user to add airplains and controll them.
+I will implement a simplified air traffic control (ATC) sistem which allow user to add airplains and controll them.
 
 ## Use Case Diagram
 ![Exercise 1 image](docs/UseCaseDiagram1.jpg)
@@ -24,7 +24,7 @@ In this lab you will implement a simplified air traffic control (ATC) sistem whi
 - R8 - Aircraft will keep track of number of seconds spent in "Cruising" state and will display it after it landed;
 - [OPTIONAL] - Add a graphical user interface to let user interact wit ATC system;
 
-## Implementation recommendations
+
 
 - User interaction is done trough a console based user interface (Example: user will enter command TAKEOFF {aircraftid} {altitude} or LAND {aircrfatid}); 
 - Aircraft objects are implemented as threads;
